@@ -1,0 +1,36 @@
+div.kachel_ews {
+    padding: 10px;
+    border-top: 6px solid rgb(4, 15, 10);        
+    border-left: 1px solid rgb(20, 90, 57);    
+    border-right: 1px solid rgb(20, 90, 57);  
+    border-bottom: 1px solid rgb(20, 90, 57); 
+    background-color: rgb(44, 155, 81);
+    
+    opacity: 0.8;
+    
+    max-width: 20vw;
+    height: 10vw;
+    text-align: center;
+    font-size:5vw;
+}
+
+div:hover{
+    opacity: 1.0;
+}
+
+a.link_ews{
+    text-decoration: none; 
+    color: black;
+}
+
+body{
+    /* font-size: 100%; */
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+/*
+* {
+    box-sizing: border-box;
+  }
+*/
