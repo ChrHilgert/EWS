@@ -1,6 +1,11 @@
+@property --var-bg-color-div-top{
+    border-top: 6px solid rgb(4, 15, 10);  
+}
+
+
 div.kachel_ews {
     padding: 10px;
-    border-top: 6px solid rgb(4, 15, 10);        
+    border-top: var(--var-bg-color-div-top);     
     border-left: 1px solid rgb(20, 90, 57);    
     border-right: 1px solid rgb(20, 90, 57);  
     border-bottom: 1px solid rgb(20, 90, 57); 
