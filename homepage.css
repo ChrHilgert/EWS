@@ -27,15 +27,22 @@ a.link_ews{
     text-decoration: none; 
     color: black;
 }
-
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 body{
     /* font-size: 100%; */
     max-width: 100%;
     background-color: #ffffff;
 }
-
-/*
-* {
-    box-sizing: border-box;
-  }
-*/
+hr {
+     margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 30vw;
+}
